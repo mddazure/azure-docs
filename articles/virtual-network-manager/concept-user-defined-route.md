@@ -90,7 +90,7 @@ You can also easily choose an Azure Firewall as the next hop by selecting **Impo
 
 ### Use more user-defined routes in a single route table
 
-In Azure Virtual Network Manager UDR management, users can now create up to 1,000 user-defined routes in a single route table, compared to the traditional 400-route limit. This higher limit enables more complex routing configurations, such as directing traffic from on-premises data centers through a firewall to each spoke virtual network in a hub-and-spoke topology. This expanded capacity is especially useful for managing traffic inspection and security across large-scale network architectures with numerous spokes.
+In Azure Virtual Network Manager UDR management, users can now create up to 1,000 user-defined routes in a single route table, compared to the traditional 600-route limit. This higher limit enables more complex routing configurations, such as directing traffic from on-premises data centers through a firewall to each spoke virtual network in a hub-and-spoke topology. This expanded capacity is especially useful for managing traffic inspection and security across large-scale network architectures with numerous spokes.
 
 In a hub-and-spoke topology, it's common for users to require that network traffic be inspected or filtered by a firewall located in the hub virtual network before reaching any spoke virtual networks. Azure Virtual Network Manager supports up to 1,000 spoke virtual networks and allows you to configure the route table associated with the gateway subnet to include up to 1,000 user-defined routes. To set this up, follow these steps:
 1. Create an Azure Virtual Network Manager instance.
